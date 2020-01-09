@@ -11,9 +11,99 @@
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+
+  <link href="https://fonts.googleapis.com/css?family=Gelasio|Great+Vibes&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <div class='container'>
+  <header>
+    <nav>
+    <a href ="#">Home</a>
+    <a href="#">About</a>
+    <a href='https://lynnfigueroa.github.io/portfolio-website/'>Portfolio</a>
+    <a href='#'>Contact</a>
+    </nav>
+  
+    <div class='headerContent'>
+      <img src='computer img.jpg'>
+
+      <div class='title'>
+      <h1>Lynn Figueroa</h1>
+
+      <p>Full Stack Web Developer</p>
+        </div>
+
+    </div>
+    </header>
+
+  <section class='Intro'>
+
+    <h2>Introduction</h2>
+
+    <p>
+      I am a highly motivated and efficient
+      web developer with experience in multiple
+      programming languages.
+    </p>
+
+  </section>
+
+  <section class='Skills'>
+
+    <h2>Skills</h2>
+
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+
+  </section>
+
+  <section class='Experience'>
+
+    <h2>Experience</h2>
+
+    <div class='xpContent'>
+      <section class='Lambda'>
+    <p>Student at Lambda School</p>
+
+    <p>Studied programming including HTML,
+      CSS, and JavaScript.  Completed various
+      projects independently and in groups.
+    </p>
+      </section>
+  
+      <section class='Marquee'>
+      <p>Bartender at Marquee Nightclub</p>
+
+      <p>Provided excellent customer service and 
+        to a large volume of guests.
+      </p>
+      </section>
+    </div>
+  
+  </section>
+
+  <section class='Contact'>
+
+    <h2>Contact</h2>
+
+    <form>
+      <form action='action_page.php'>
+
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="subject">Message</label>
+        <textarea id="subject" name="subject" placeholder="Write your message here.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+  </section>
+</div>
 </body>
 </html>

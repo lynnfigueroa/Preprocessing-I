@@ -1,1 +1,274 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+.text {
+  color: #808080;
+  font-size: 1rem;
+  font-family: 'Gelasio', serif;
+}
+.centerColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: mistyrose;
+}
+.container {
+  width: 90%;
+  color: #808080;
+  font-size: 1rem;
+  font-family: 'Gelasio', serif;
+}
+.container h2 {
+  font-size: 1.5rem;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 85%;
+  }
+}
+.container header {
+  width: 100%;
+}
+.container nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3%;
+}
+.container nav a {
+  text-decoration: none;
+  color: #808080;
+}
+.container img {
+  width: 60%;
+  border-radius: 25%;
+}
+@media (max-width: 500px) {
+  .container img {
+    display: none;
+  }
+}
+.container .headerContent {
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+}
+.container .headerContent .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .headerContent .title h1 {
+  font-size: 3rem;
+  padding-bottom: 7%;
+  font-family: 'Great Vibes', cursive;
+}
+.container .headerContent .title p {
+  font-size: 1rem;
+}
+@media (max-width 500px) {
+  .container .headerContent .title {
+    text-align: center;
+  }
+}
+.container .Intro {
+  text-align: center;
+}
+.container .Intro p {
+  padding: 3%;
+}
+.container .Skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+.container .Skills ul {
+  display: flex;
+  list-style-type: circle;
+  text-align: center;
+  margin-right: 10%;
+}
+.container .Skills ul li {
+  margin: 13%;
+}
+.container .Experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .Experience h2 {
+  padding-bottom: 3%;
+}
+.container .Experience .xpContent {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
+.container .Experience .xpContent p {
+  padding-bottom: 3%;
+}
+.container .Contact {
+  padding: 5%;
+}
+.container .Contact h2 {
+  padding-bottom: 7%;
+}
+.container .Contact input[type=text],
+.container .Contact select,
+.container .Contact textarea {
+  width: 100%;
+  padding: 3%;
+  border: 1px solid #ccc;
+  radius: 4px;
+  box-sizing: border-box;
+  margin-top: 3%;
+  margin-bottom: 4%;
+  resize: vertical;
+}
+.container .Contact input[type=submit] {
+  background-color: lightseagreen;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
